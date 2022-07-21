@@ -11,7 +11,7 @@ namespace BMEG_summer_crash_course
          static void Main(string[] args)
         {
 
-            int nw = 5;
+            int n = 5;
             int[] foo = new int[5] { 1, 2, 3, 4, 5 };
 
             int m = 100;
@@ -22,11 +22,9 @@ namespace BMEG_summer_crash_course
                 bar[i] = i;
             }
 
-            Console.WriteLine($"The total number of even number in foo are: {countEvenNum1.countEvenNum(foo, nw)}");
+            Console.WriteLine($"The total number of even number in foo are: {countEvenNum1.countEvenNum(foo, n)}");
             Console.WriteLine($"The total number of even number in bar are: {countEvenNum1.countEvenNum(bar, m)}");
         }
-
-
     }
 }
 
